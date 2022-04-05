@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-commerce website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- navigation bar -->
+  <nav class="navbar navbar-expand-lg  navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="">
+        <> e-commerce
+          < />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link contact" href="signup.html" tabindex="-1" aria-disabled="true">Sign up</a>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Shop
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="shop_elctrnics.html">Electronics</a></li>
+              <li><a class="dropdown-item" href="shop_fashion.html">fashion</a></li>
+              <li><a class="dropdown-item" href="shop_books.html">Books</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link contact " href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- billing details -->
+
+  <div id="billing">
+    <form onsubmit="return validation()" name="Userdetails" method="post">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div id="sitemdetails">
+              <h3>ASUS ROG Zephyrus S17 (2021) </h3>
+              <button class="btn btn-success"> Rs 98,990 </button>
+            </div>
+            <img src="image/sasuss17_1.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <label for="name" class="name">Name :</label>
+             <input type="text" name="Name" id="name" required>
+             <span id="errorname" style="font-size: 10px; color: red;"></span>
+            <label for="email">Email :</label>
+            <input type="email" name="Email" id="email" required >
+            <span id="erroremail" style="font-size: 10px; color: red;"></span>
+            <label for="mobilenumber">Contact Number :</label>
+            <input type="number" name="ContactNumber" id="mobilenumber" required>
+            <span id="errornumber" style="font-size: 10px; color: red;"></span>
+            <label for="pincode">Pincode :</label>
+            <input type="number" name="Pincode" id="pincode" required>
+            <span id="errorpincode" style="font-size: 10px; color: red;"></span>
+            <label for="address">Address</label>
+            <input type="text" name="Address" id="address" required>
+            <label for="district">District :</label>
+            <input type="text" name="District" id="district" required>
+            <span id="errordistrict" style="font-size: 10px; color: red;"></span>
+            <label for="state">State :</label>
+            <input type="text" name="State" id="state" required>
+            <span id="errorstate" style="font-size: 10px; color: red;"></span>
+            <label for="addresstype">Item details:</label>
+            <select name="item name" id="addresstype" required>
+              <option   value="ASUS S17">ASUS S17</option>
+            </select>
+          </div>
+        </div>
+        <div id="adsubmit">
+          <button type="submit" class="btn btn-success">Submit</button>
+      </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+    <script src="script.js"></script>
+  <script>
+  const scriptURL =
+      'https://script.google.com/macros/s/AKfycbwmOMlyP4sy5CR03LkeNIUnT1BtnbYqAXL_ENGj4kda8I79hkuFs7wOxtVemcdFsAnK/exec'
+  const form = document.forms['Userdetails']
+
+  form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, {
+              method: 'POST',
+              body: new FormData(form)
+          })
+          .then(response => alert(
+              "Congratulations Your order is placed and Thankyou for choosing our site to buy products"))
+          .catch(error => console.error('Error!', error.message))
+  })
+
+</script>
+</body>
+
+</html>

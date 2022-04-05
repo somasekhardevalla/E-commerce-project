@@ -1,0 +1,1027 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.navbar {
+    padding: 2px 2px;
+    background: powderblue;
+}
+
+.navbar-brand {
+    font-family: 'Hurricane', cursive;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+.navbar-nav li a .contact{
+    margin-right: 0px;
+}
+
+.navbar-nav li a {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.navbar-nav li a:hover {
+    color: crimson !important;
+}
+
+#carouselExampleControls img {
+    width: 100%;
+    height: 90vh;
+    margin-top: 5vh;
+}
+.card .items{
+    margin-top: 10px;
+}
+.card a img{
+    width: 100%;
+}
+.card a img{
+    height: 450px;
+}
+.card h2{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    padding-bottom: 3px;
+    text-decoration: none;
+    background:transparent;
+    color: black;
+    text-align: center;
+    font-weight: 800;
+}
+#ASUSG14 img{
+    margin-top: 10vh;
+    height: 70vh;
+    margin-bottom: 3px;
+}
+#ASUSS17 img{
+    height: 70vh;
+    margin-bottom: 3px;
+}
+#MACBOOKAIRPRO img{
+    height: 70vh;
+    margin-bottom: 3px;
+}
+#VIVIY15 img{
+    height: 70vh;
+    margin-bottom: 3px;
+}
+#iphones11 img{
+   height: 70vh;
+   margin-bottom: 3px;
+}
+#samsungtv img{
+    height: 70vh;
+    margin-bottom: 3px;
+
+}
+#T-shirtplane img{
+    margin-top: 10vh;
+    height: 90vh;
+    margin-bottom: 3px;
+}
+
+#fashion2 img{
+    height: 90vh;
+    margin-bottom: 3px;
+}
+#denver img{
+    height: 90vh;
+    margin-bottom: 3px;
+}
+#htmlandcss img{
+    margin-top: 10vh;
+    height: 90vh;
+    margin-bottom: 3px;
+}
+#jsandjquarey img{
+
+    height: 90vh;
+    margin-bottom: 3px;
+
+}
+#billing img{
+    height: 55vh;
+    margin-top: 1vh;
+    margin-right: 0px;
+}
+#sitemdetails{
+    text-align: center;
+}
+#adsubmit{
+    text-decoration: none;
+    margin-top: 5vh;
+    align-content: center;
+    text-align: center;
+}
+form .col-md-6 input{
+    margin-bottom: 1vh;
+    margin-right: 2vh;
+    padding: 2px;
+    margin-left: 0px;
+    text-align: center;
+}
+#addresstype{
+    margin-right: 2vh;
+}
+addresstype input{
+    text-align: center;
+}
+.name{
+    margin-top: 1vh;
+}
+/* media quaries */
+@media screen and (max-width: 320px) {
+    #carouselExampleControls img{
+        height: 50vh;
+        margin-top: 10vh;
+    }
+    .card a img{
+        height: 335px;
+    }
+    #ASUSG14 img{
+        height: 40vh;
+    }
+    #ASUSS17 img{
+        height: 40vh;
+    }
+    #MACBOOKAIRPRO img{
+        height: 40vh;
+    }
+    #VIVIY15 img{
+        height: 40vh;
+    }
+    #iphones11 img{
+       height: 40vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 40vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 40vh;
+        margin-bottom: 3px;
+    
+    }
+   
+}
+    @media (min-width:321px) and (max-width:375px) {
+        #carouselExampleControls img{
+        height: 55vh;
+    }
+    .card a img{
+        height: 340px;
+    }
+    #ASUSG14 img{
+        margin-top: 10vh;
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #ASUSS17 img{
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #MACBOOKAIRPRO img{
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #VIVIY15 img{
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #iphones11 img{
+       height: 40vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 40vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 40vh;
+        margin-bottom: 3px;
+    
+    }
+    
+}
+@media (min-width:376px) and (max-width:400px) {
+    #carouselExampleControls img{
+        height: 60vh;
+    }
+    .card a img{
+        height: 340px;
+    }
+    #ASUSG14 img{
+        margin-top: 10vh;
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #ASUSS17 img{
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #MACBOOKAIRPRO img{
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #VIVIY15 img{
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #iphones11 img{
+       height: 40vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 40vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 40vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 40vh;
+        margin-bottom: 3px;
+    
+    }
+   
+  
+}
+@media (min-width:401px) and (max-width:450px) {
+
+    #carouselExampleControls img{
+        height: 65vh;
+    }
+    .card a img{
+        height: 350px;
+    }
+    #ASUSG14 img{
+        margin-top: 10vh;
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #ASUSS17 img{
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #MACBOOKAIRPRO img{
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #VIVIY15 img{
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #iphones11 img{
+       height: 45vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 45vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 45vh;
+        margin-bottom: 3px;
+    
+    }
+}
+@media (min-width:451px) and (max-width:500px) {
+
+    #carouselExampleControls img{
+        height: 70vh;
+    }
+    .card a img{
+        height: 355px;
+    }
+    #ASUSG14 img{
+        margin-top: 10vh;
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #ASUSS17 img{
+        height: 70vh;
+        margin-bottom: 3px;
+    }
+    #MACBOOKAIRPRO img{
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #VIVIY15 img{
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #iphones11 img{
+       height: 45vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 45vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 45vh;
+        margin-bottom: 3px;
+    
+    }
+}@media (min-width:501px) and (max-width:550px) {
+
+    #carouselExampleControls img{
+        height: 70vh;
+    }
+    .card a img{
+        height: 350px;
+    }
+    #ASUSG14 img{
+        margin-top: 10vh;
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #ASUSS17 img{
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #MACBOOKAIRPRO img{
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #VIVIY15 img{
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #iphones11 img{
+       height: 45vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 45vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 45vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 45vh;
+        margin-bottom: 3px;
+    
+    }
+}@media (min-width:551px) and (max-width:650px) {
+
+    #carouselExampleControls img{
+        height: 75vh;
+    }
+    .card a img{
+        height: 400px;
+    }
+    #ASUSG14 img{
+        margin-top: 10vh;
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    #ASUSS17 img{
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    #MACBOOKAIRPRO img{
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    #VIVIY15 img{
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    #iphones11 img{
+       height: 50vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 50vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 50vh;
+        margin-bottom: 3px;
+    
+    }
+}@media (min-width:651px) and (max-width:750px) {
+
+    #carouselExampleControls img{
+        height: 78vh;
+    }
+    .card a img{
+        height: 425px;
+    }
+    #ASUSG14 img{
+        margin-top: 10vh;
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    #ASUSS17 img{
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    #MACBOOKAIRPRO img{
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    #VIVIY15 img{
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    #iphones11 img{
+       height: 50vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 50vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 50vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 50vh;
+        margin-bottom: 3px;
+    
+    }
+}@media (min-width:751px) and (max-width:800px) {
+
+    #carouselExampleControls img{
+        height: 82vh;
+    }
+    .card a img{
+        height: 425px;
+    }
+    #ASUSG14 img{
+        margin-top: 10vh;
+        height: 55vh;
+        margin-bottom: 3px;
+    }
+    #ASUSS17 img{
+        height: 55vh;
+        margin-bottom: 3px;
+    }
+    #MACBOOKAIRPRO img{
+        height: 55vh;
+        margin-bottom: 3px;
+    }
+    #VIVIY15 img{
+        height: 55vh;
+        margin-bottom: 3px;
+    }
+    #iphones11 img{
+       height: 55vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 55vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 55vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 55vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 55vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 55vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 55vh;
+        margin-bottom: 3px;
+    
+    }
+}@media (min-width:801px) and (max-width:850px) {
+
+    #carouselExampleControls img{
+        height: 84vh;
+    }
+    .card a img{
+        height: 425px;
+    }
+    #ASUSG14 img{
+        margin-top: 10vh;
+        height: 58vh;
+        margin-bottom: 3px;
+    }
+    #ASUSS17 img{
+        height: 58vh;
+        margin-bottom: 3px;
+    }
+    #MACBOOKAIRPRO img{
+        height: 58vh;
+        margin-bottom: 3px;
+    }
+    #VIVIY15 img{
+        height: 58vh;
+        margin-bottom: 3px;
+    }
+    #iphones11 img{
+       height: 58vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 58vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 58vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 58vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 58vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 58vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 58vh;
+        margin-bottom: 3px;
+    
+    }
+}
+@media (min-width:851px) and (max-width:950px) {
+
+    #carouselExampleControls img{
+        height: 85vh;
+    }
+    .card a img{
+        height: 425px;
+    }
+    #ASUSG14 img{
+        margin-top: 10vh;
+        height: 60vh;
+        margin-bottom: 3px;
+    }
+    #ASUSS17 img{
+        height: 60vh;
+        margin-bottom: 3px;
+    }
+    #MACBOOKAIRPRO img{
+        height: 60vh;
+        margin-bottom: 3px;
+    }
+    #VIVIY15 img{
+        height: 60vh;
+        margin-bottom: 3px;
+    }
+    #iphones11 img{
+       height: 60vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 60vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 65vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 65vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 65vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 65vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 65vh;
+        margin-bottom: 3px;
+    
+    }
+}@media (min-width:951px) and (max-width:1050px) {
+
+    #carouselExampleControls img{
+        height: 88vh;
+    }
+    .card a img{
+        height: 425px;
+    }
+    #ASUSG14 img{
+        margin-top: 10vh;
+        height: 65vh;
+        margin-bottom: 3px;
+    }
+    #ASUSS17 img{
+        height: 65vh;
+        margin-bottom: 3px;
+    }
+    #MACBOOKAIRPRO img{
+        height: 65vh;
+        margin-bottom: 3px;
+    }
+    #VIVIY15 img{
+        height: 65vh;
+        margin-bottom: 3px;
+    }
+    #iphones11 img{
+       height: 65vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 65vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 70vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 70vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 70vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 70vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 70vh;
+        margin-bottom: 3px;
+    
+    }
+}@media (min-width:1050px) and (max-width:1150px) {
+
+    #carouselExampleControls img{
+        height: 88vh;
+    }
+    .card a img{
+        height: 425px;
+    }
+    #ASUSG14 img{
+        margin-top: 10vh;
+        height: 68vh;
+        margin-bottom: 3px;
+    }
+    #ASUSS17 img{
+        height: 68vh;
+        margin-bottom: 3px;
+    }
+    #MACBOOKAIRPRO img{
+        height: 68vh;
+        margin-bottom: 3px;
+    }
+    #VIVIY15 img{
+        height: 68vh;
+        margin-bottom: 3px;
+    }
+    #iphones11 img{
+       height: 68vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 68vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 75vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 75vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 75vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 75vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 75vh;
+        margin-bottom: 3px;
+    
+    }
+}@media (min-width:1151px) and (max-width:1250px) {
+
+    #carouselExampleControls img{
+        height: 88vh;
+    }
+    .card a img{
+        height: 425px;
+    }
+    #ASUSG14 img{
+        margin-top: 10vh;
+        height: 70vh;
+        margin-bottom: 3px;
+    }
+    #ASUSS17 img{
+        height: 70vh;
+        margin-bottom: 3px;
+    }
+    #MACBOOKAIRPRO img{
+        height: 70vh;
+        margin-bottom: 3px;
+    }
+    #VIVIY15 img{
+        height: 70vh;
+        margin-bottom: 3px;
+    }
+    #iphones11 img{
+       height: 70vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 70vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 80vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 80vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 80vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 80vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 80vh;
+        margin-bottom: 3px;
+    
+    }
+}@media (min-width:1251px) and (max-width:1350px) {
+
+    #carouselExampleControls img{
+        height: 88vh;
+    }
+    .card a img{
+        height: 425px;
+    }
+    #ASUSG14 img{
+        margin-top: 10vh;
+        height: 70vh;
+        margin-bottom: 3px;
+    }
+    #ASUSS17 img{
+        height: 70vh;
+        margin-bottom: 3px;
+    }
+    #MACBOOKAIRPRO img{
+        height: 70vh;
+        margin-bottom: 3px;
+    }
+    #VIVIY15 img{
+        height: 70vh;
+        margin-bottom: 3px;
+    }
+    #iphones11 img{
+       height: 70vh;
+       margin-bottom: 3px;
+    }
+    #samsungtv img{
+        height: 70vh;
+        margin-bottom: 3px;
+    
+    }
+    #T-shirtplane img{
+        margin-top: 10vh;
+        height: 90vh;
+        margin-bottom: 3px;
+    }
+    
+    #fashion2 img{
+        height: 90vh;
+        margin-bottom: 3px;
+    }
+    #denver img{
+        height: 90vh;
+        margin-bottom: 3px;
+    }
+    #htmlandcss img{
+        margin-top: 10vh;
+        height: 90vh;
+        margin-bottom: 3px;
+    }
+    #jsandjquarey img{
+    
+        height: 90vh;
+        margin-bottom: 3px;
+    
+    }
+}

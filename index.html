@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-commerce website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="">
+        <> e-commerce
+          < />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link contact" href="signup.html" tabindex="-1" aria-disabled="true">Sign up</a>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Shop
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="shop_elctrnics.html">Electronics</a></li>
+              <li><a class="dropdown-item" href="shop_fashion.html">fashion</a></li>
+              <li><a class="dropdown-item" href="shop_books.html">Books</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link contact " href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- carousel -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item landingpage active">
+        <a href="shop_elctrnics.html">
+          <img src="image/laptop.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="shop_elctrnics.html">
+          <img src="image/mobile4.jpg" class="c-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="shop_books.html">
+          <img src="image/books.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="shop_fashion.html">
+          <img src="image/fashion.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden" style="text-align: center;">Next</span>
+  </button>
+  <!--Item cards -->
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card items">
+        <h2>Laptops</h2>
+        <a href="shop_elctrnics.html">
+          <img src="image/clapapple.jpg" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <h2>Laptops</h2>
+        <a href="shop_elctrnics.html">
+          <img src="image/clapasus.avif" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <h2>  Iphone </h2>
+        <a href="shop_elctrnics.html">
+          <img src="image/cmobileapple.jpeg" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <h2>Android</h2>
+        <a href="shop_elctrnics.html">
+          <img src="image/cmobilevivo.webp" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <h2>Shoes</h2>
+        <a href="shop_fashion.html">
+          <img src="image/cfashionshoe.jpg" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <H2>Fashions</H2>
+        <a href="shop_fashion.html">
+          <img src="image/cfashionshirt.jpg" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <h2>Front End Development Books</h2>
+        <a href="shop_books.html">
+          <img src="image/cbook2.jpg" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <h2>HTML book</h2>
+        <a href="shop_books.html">
+          <img src="image/cbookhtml.jpg" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
